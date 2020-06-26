@@ -15,7 +15,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 1. Loading and preprocessing the data:
 ```{r}
-dt <- read.csv("activity.csv", header = T)
+download.file("https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip", "activity_data.zip")
+unzip("activity_data.zip")
+dt<- read.csv("activity.csv", stringsAsFactors = F)
 ```
 
 Install ggplot2, and sqldf library 
