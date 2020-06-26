@@ -1,10 +1,10 @@
----
+
 title: "Reproducible Research: Peer Assessment 1"
 author: "Arnulfo Díaz Ulate"
 output: 
   html_document:
     keep_md: true
----
+
 
 
 
