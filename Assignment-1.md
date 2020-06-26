@@ -89,7 +89,7 @@ AvgStepsbyInterval <- sqldf("Select interval,avg(Steps) as AvgSteps from dt1 gro
 plot(AvgStepsbyInterval$interval,AvgStepsbyInterval$AvgSteps, type = "l", main = "Time series plot of the \n average number of steps taken", xlab = "interval", ylab = "Mean steps")
 ```
 
-![](Figs/unnamed-chunk-5-1.png)<!-- -->
+![](https://github.com/Adiazu/RepData_PeerAssessment1/blob/master/instructions_fig/Time%20series.png)<!-- -->
 
 #### The 5-minute interval contains the max number of steps:
 
@@ -129,7 +129,7 @@ New_StepsPerDay <- sqldf("Select date,sum(Steps) as TotalSteps from new_dt group
 hist(New_StepsPerDay$TotalSteps, main = "Histogram of total number of steps taken per day", xlab = "Total number of steps")
 ```
 
-![](Figs/unnamed-chunk-9-1.png)<!-- -->
+![](https://github.com/Adiazu/RepData_PeerAssessment1/blob/master/instructions_fig/Histogram%202.png)<!-- -->
 
 <br><br>
 
@@ -183,4 +183,4 @@ g <- qplot(interval, steps, data = mean_number_steps, facets = days~.)
 g + geom_line(size = 1) + ylab("Mean steps") + ggtitle("Average number of steps taken, \n averaged across all weekday days or weekend days ")
 ```
 
-![](Figs/unnamed-chunk-12-1.png)<!-- -->
+![](https://github.com/Adiazu/RepData_PeerAssessment1/blob/master/instructions_fig/Weekdays%20and%20Weekends.png)<!-- -->
