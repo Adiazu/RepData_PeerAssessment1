@@ -1,6 +1,6 @@
 
-#"Reproducible Research: Peer Assessment 1"
-## "Arnulfo Díaz Ulate"
+## Reproducible Research: Peer Assessment 1
+## Arnulfo Díaz Ulate
 
 
 
