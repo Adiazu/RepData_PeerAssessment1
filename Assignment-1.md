@@ -59,7 +59,7 @@ StepsPerDay <- sqldf("Select date,sum(Steps) as TotalSteps from dt1 group by dat
 hist(StepsPerDay$TotalSteps, main = "Histogram of total number of steps taken per day", xlab = "Total number of steps")
 ```
 
-![](Figs/unnamed-chunk-3-1.png)<!-- -->
+![](instructions_fig/Histogram 1.png)<!-- -->
 
 #### mean and median:
 
